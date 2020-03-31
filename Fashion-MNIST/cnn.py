@@ -8,7 +8,7 @@ import os
 import pandas as pd
 
 
-root="/home/BH/zy1906304/zy/deeplearning/Fashion-MNIST/data"
+root="/home/BH/zy1906304/zy/deeplearning/Fashion-MNIST/data/"
 
 train_transform = transforms.Compose([
     # transforms.RandomCrop(28, padding=0),  #先四周填充0，再把图像随机裁剪成32*32
